@@ -23,3 +23,19 @@ $, #, % symbols indicate the user account type you are logged in to.
 The dollar sign ($) means you are a normal user.
 Hash (#) means you are the system administrator (root).
 In the C shell, the prompt ends with a percentage sign (%).
+
+
+What is Unix ?
+The Unix operating system is a set of programs that act as a link between the computer and the user.
+
+The computer programs that allocate the system resources and coordinate all the details of the computer's internals is called the operating system or the kernel.
+
+Users communicate with the kernel through a program known as the shell. The shell is a command line interpreter; it translates commands entered by the user and converts them into a language that is understood by the kernel.
+
+    Unix was originally developed in 1969 by a group of AT&T employees Ken Thompson, Dennis Ritchie, Douglas McIlroy, and Joe Ossanna at Bell Labs.
+
+    There are various Unix variants available in the market. Solaris Unix, AIX, HP Unix and BSD are a few examples. Linux is also a flavor of Unix which is freely available.
+
+    Several people can use a Unix computer at the same time; hence Unix is called a multiuser system.
+
+    A user can also run multiple programs at the same time; hence Unix is a multitasking environment.
