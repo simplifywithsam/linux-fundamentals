@@ -6,7 +6,7 @@ Enabling a static IP address in Linux involves configuring the network interface
 ## Identify Your Network Interface:
 
 #		Open a terminal and run the following command to list available network interfaces:
-		ifconfig -a
+		ip a
 #		Identify the network interface you want to configure (e.g., eth0, enp0s3, wlan0, etc.).
 
 
