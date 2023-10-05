@@ -18,12 +18,13 @@ An extent is a fixed-size block of storage within a volume group. Logical volume
 
 ## LVM Commands:
 
-pvcreate: Initializes a physical volume.
-vgcreate: Creates a volume group.
-lvcreate: Creates a logical volume within a volume group.
-lvextend and lvreduce: Resize logical volumes.
-pvmove: Moves data between physical volumes.
-lvcreate --snapshot: Creates a snapshot of a logical volume.
+	pvcreate: Initializes a physical volume.
+	vgcreate: Creates a volume group.
+	lvcreate: Creates a logical volume within a volume group.
+	lvextend and lvreduce: Resize logical volumes.
+	pvmove: Moves data between physical volumes.
+	lvcreate --snapshot: Creates a snapshot of a logical volume.
+	
 File Systems: After creating logical volumes, you can format them with file systems (e.g., ext4, XFS) and then mount them to use as regular storage.
 
 ## LVM provides several advantages, including:
