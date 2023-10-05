@@ -29,13 +29,14 @@ File Systems: After creating logical volumes, you can format them with file syst
 
 ## LVM provides several advantages, including:
 
-Dynamic Resizing: You can easily extend or shrink logical volumes online without disrupting data access.
-
-Data Protection: LVM supports mirroring and striping, which can provide data redundancy and improved performance.
-
-Snapshots: You can create read-only snapshots of logical volumes for backup purposes or to create a point-in-time copy of data.
-
-Volume Management: LVM allows for efficient management of storage resources, even when using multiple physical disks.
+##		Dynamic Resizing: 
+You can easily extend or shrink logical volumes online without disrupting data access.
+##		Data Protection: 
+LVM supports mirroring and striping, which can provide data redundancy and improved performance.
+##		Snapshots: 
+You can create read-only snapshots of logical volumes for backup purposes or to create a point-in-time copy of data.
+##		Volume Management: 
+LVM allows for efficient management of storage resources, even when using multiple physical disks.
 
 To use LVM, you need to install the LVM tools package on your Linux distribution (e.g., lvm2), initialize physical volumes, create volume groups, and then create and manage logical volumes as needed. It's a powerful tool for managing storage in Linux systems, especially in environments where storage requirements may change over time.
 
