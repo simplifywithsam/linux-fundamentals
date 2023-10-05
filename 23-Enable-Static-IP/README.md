@@ -29,10 +29,10 @@ Add or modify the following lines in the configuration file, replacing the value
 ## Restart the Networking Service:
 
 To apply the changes, restart the networking service. The command may differ depending on your Linux distribution. Here are a few examples:
-##		On Debian/Ubuntu:
+###		On Debian/Ubuntu:
 		sudo service networking restart
 		
-##		On Red Hat/CentOS:
+###		On Red Hat/CentOS:
 		sudo systemctl restart network
 		
 ## Verify the Configuration:
